@@ -1,8 +1,68 @@
+body {
+  background-color: rgb(212, 203, 210);
+}
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  margin-top: 25px;
+  background-color: rgb(146, 121, 141);
+  padding: 25px;
+  box-shadow: 5px 5px 5px 5px rgb(163, 157, 162);
+  border-radius: 5px;
+}
+
+.city {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 0;
+  border-bottom: 1px dashed rgb(44, 43, 43);
+}
+
+.city:last-child {
+  border: none;
+}
+
+.time {
+  font-size: 34px;
+  color: rgb(68, 58, 68);
+  font-weight: bold;
+  opacity: 80%;
+}
+
+.time small {
+  font-size: 17px;
+  vertical-align: middle;
+  line-height: 34px;
+}
+.date {
+  font-size: smaller;
+  opacity: 40%;
+  margin-bottom: 10px;
+}
 h1 {
   text-align: center;
-  color: navy;
+  color: rgb(68, 58, 68);
+  font-weight: bold;
+  opacity: 80%;
+}
+
+h2 {
+  color: rgb(68, 58, 68);
+  font-weight: bold;
+  font-size: 30px;
+  margin: 0;
+  opacity: 80%;
+}
+
+select {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
 }
 
 footer {
   text-align: center;
+  margin-top: 16px;
+  opacity: 75%;
 }
