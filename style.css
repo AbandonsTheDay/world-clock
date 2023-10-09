@@ -56,6 +56,14 @@ h2 {
   opacity: 80%;
 }
 
+.homepagelink {
+  text-decoration: none;
+  color: rgb(68, 58, 68);
+}
+
+.homepagelink:hover {
+  color: rgb(45, 38, 45);
+}
 select {
   font-family: "Merriweather", serif;
   display: block;
