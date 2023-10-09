@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
     <title>World Clock 🕒</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.43/moment-timezone-with-data-1970-2030.min.js"></script>
   </head>
   <body>
     <div class="container">
@@ -12,38 +14,38 @@
       <select name="citySelections" id="selectCity">
         <option selected>Select a city</option>
         <option id="Rhodes">Rhodes</option>
-        <option id="Thebes">Thebes</option>
-        <option id="Corinth">Corinth</option>
+        <option id="Thebes">Syracuse</option>
+        <option id="Corinth">Debrecen</option>
         <option id="Chicago">Chicago</option>
       </select>
-      <div class="city">
+      <div class="city" id="rhodes-city">
         <div>
-          <h2>Rhodes 🏛️</h2>
-          <div class="date">October 8th, 2023</div>
+          <h2>Rhodes🏖️</h2>
+          <div class="date"></div>
         </div>
-        <div class="time">3:31 <small>PM</small></div>
+        <div class="time"></div>
       </div>
-      <div class="city">
+      <div class="city" id="syracuse-city">
         <div>
-          <h2>Thebes 🏺</h2>
-          <div class="date">October 8th, 2023</div>
+          <h2>Syracuse📖</h2>
+          <div class="date"></div>
         </div>
-        <div class="time">3:31 <small>PM</small></div>
+        <div class="time"></div>
       </div>
-      <div class="city">
+      <div class="city" id="debrecen-city">
         <div>
-          <h2>Corinth 🍷</h2>
-          <div class="date">October 8th, 2023</div>
+          <h2>Debrecen🎨</h2>
+          <div class="date"></div>
         </div>
-        <div class="time">3:31 <small>PM</small></div>
+        <div class="time"></small></div>
       </div>
-      <div class="city">
+      <div class="city" id="chicago-city">
         <div>
-          <h2>Chicago 💐</h2>
-          <div class="date">October 8th, 2023</div>
+          <h2>Chicago🍕</h2>
+          <div class="date"></div>
         </div>
 
-        <div class="time">3:31 <small>PM</small></div>
+        <div class="time"></small></div>
       </div>
     </div>
     <footer>
