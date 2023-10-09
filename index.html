@@ -7,12 +7,16 @@
     <title>World Clock 🕒</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.43/moment-timezone-with-data-1970-2030.min.js"></script>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Merriweather&display=swap");
+    </style>
   </head>
   <body>
     <div class="container">
       <h1>World Clocks</h1>
       <select name="citySelections" id="selectCity">
         <option selected>Select a city</option>
+        <option value="current" id="">Current location</option>
         <option value="Europe/Athens" id="Rhodes">Rhodes</option>
         <option value="Europe/Rome" id="Syracuse">Syracuse</option>
         <option value="Europe/Budapest" id="Debrecen">Debrecen</option>

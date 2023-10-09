@@ -12,6 +12,7 @@ body {
 }
 
 .city {
+  font-family: "Merriweather", serif;
   display: flex;
   justify-content: space-between;
   margin: 30px 0;
@@ -40,6 +41,7 @@ body {
   margin-bottom: 10px;
 }
 h1 {
+  font-family: "Merriweather", serif;
   text-align: center;
   color: rgb(68, 58, 68);
   font-weight: bold;
@@ -55,6 +57,7 @@ h2 {
 }
 
 select {
+  font-family: "Merriweather", serif;
   display: block;
   width: 100%;
   padding: 10px;
@@ -62,6 +65,7 @@ select {
 }
 
 footer {
+  font-family: "Merriweather", serif;
   text-align: center;
   margin-top: 16px;
   opacity: 75%;
